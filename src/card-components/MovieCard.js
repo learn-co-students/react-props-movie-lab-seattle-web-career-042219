@@ -35,7 +35,7 @@ export default class MovieCard extends Component {
         {/* which component should receive which props? */}
         <CardFront poster={posterMap[this.props.poster]}/>
         <CardBack 
-        genre={this.props.genres} 
+        genres={this.props.genres} 
         title={this.props.title} 
         IMDBRating={this.props.IMDBRating}/>
       </div>
